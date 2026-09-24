@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-emergency">
+  <polygon points="7 2 17 2 22 7 22 17 17 22 7 22 2 17 2 7" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="12" cy="12" r="7.5" fill="#334155"/>
+<line x1="12" y1="2" x2="12" y2="5" stroke="var(--wf-accent, #f59e0b)" stroke-width="2"/>
+<line x1="12" y1="19" x2="12" y2="22" stroke="var(--wf-accent, #f59e0b)" stroke-width="2"/>
+<line x1="2" y1="12" x2="5" y2="12" stroke="var(--wf-accent, #f59e0b)" stroke-width="2"/>
+<line x1="19" y1="12" x2="22" y2="12" stroke="var(--wf-accent, #f59e0b)" stroke-width="2"/>
+<polygon points="11 7 13 7 13 13 11 13" fill="var(--wf-accent, #f59e0b)"/>
+<circle cx="12" cy="16" r="1.3" fill="var(--wf-accent, #f59e0b)"/>
+</svg>

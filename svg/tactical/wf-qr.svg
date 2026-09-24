@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-qr">
+  <rect x="2" y="2" width="20" height="20" rx="3" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<rect x="4" y="4" width="6.5" height="6.5" fill="#ffffff" stroke="#0f172a" stroke-width="1.2"/>
+<rect x="5.5" y="5.5" width="3.5" height="3.5" fill="var(--wf-accent, #f59e0b)"/>
+<rect x="13.5" y="4" width="6.5" height="6.5" fill="#ffffff" stroke="#0f172a" stroke-width="1.2"/>
+<rect x="15" y="5.5" width="3.5" height="3.5" fill="var(--wf-accent, #f59e0b)"/>
+<rect x="4" y="13.5" width="6.5" height="6.5" fill="#ffffff" stroke="#0f172a" stroke-width="1.2"/>
+<rect x="5.5" y="15" width="3.5" height="3.5" fill="var(--wf-accent, #f59e0b)"/>
+<rect x="13.5" y="13.5" width="3" height="3" fill="var(--wf-accent, #f59e0b)"/>
+<rect x="17" y="17" width="3" height="3" fill="var(--wf-accent, #f59e0b)"/>
+<rect x="13.5" y="17" width="3" height="3" fill="#ffffff"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-hospital">
+  <circle cx="12" cy="12" r="9.5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8"/>
+<circle cx="12" cy="12" r="7.5" fill="#1e293b"/>
+<text x="12" y="16.5" font-size="12" font-weight="900" text-anchor="middle" fill="var(--wf-accent, #f59e0b)" font-family="sans-serif">H</text>
+</svg>

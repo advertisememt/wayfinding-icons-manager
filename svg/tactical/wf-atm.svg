@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-atm">
+  <rect x="4" y="3" width="16" height="18" rx="2" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<rect x="7" y="5.5" width="10" height="6.5" rx="1" fill="#334155" stroke="#0f172a" stroke-width="1"/>
+<rect x="8.5" y="7" width="7" height="3.5" rx="0.5" fill="var(--wf-accent, #f59e0b)"/>
+<line x1="7" y1="15" x2="17" y2="15" stroke="var(--wf-accent, #f59e0b)" stroke-width="2" stroke-linecap="round"/>
+<rect x="13.5" y="17" width="4" height="2" fill="#ffffff"/>
+</svg>

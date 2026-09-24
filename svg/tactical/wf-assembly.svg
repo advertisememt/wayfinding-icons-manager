@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-assembly">
+  <polygon points="12 2 14.5 7 20 5 18 10.5 23 13 18 15.5 20 21 14.5 19 12 24 9.5 19 4 21 6 15.5 1 13 6 10.5 4 5 9.5 7" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="12 2 14.5 7 12 13 9.5 7" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="20 5 18 10.5 12 13 14.5 7" fill="#334155"/>
+<polygon points="23 13 18 15.5 12 13 18 10.5" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="20 21 14.5 19 12 13 18 15.5" fill="var(--wf-accent-light, #fbbf24)"/>
+<polygon points="12 24 9.5 19 12 13 14.5 19" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="4 21 6 15.5 12 13 9.5 19" fill="#334155"/>
+<polygon points="1 13 6 10.5 12 13 6 15.5" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="4 5 9.5 7 12 13 6 10.5" fill="var(--wf-accent-light, #fbbf24)"/>
+</svg>

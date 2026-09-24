@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-lecture">
+  <rect x="3" y="3" width="18" height="13" rx="1.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<rect x="5" y="5" width="14" height="9" fill="#334155"/>
+<polygon points="6 6 12 6 12 9 6 9" fill="var(--wf-accent, #f59e0b)"/>
+<line x1="6" y1="11" x2="18" y2="11" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="9 16 15 16 17 21 7 21" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>

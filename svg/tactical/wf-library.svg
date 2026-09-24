@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-library">
+  <rect x="3" y="4" width="4" height="17" rx="0.5" fill="#334155" stroke="#0f172a" stroke-width="1.2"/>
+<rect x="8" y="2" width="5" height="19" rx="0.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.2"/>
+<rect x="14" y="5" width="4" height="16" rx="0.5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.2"/>
+<rect x="19" y="8" width="3" height="13" rx="0.5" fill="#475569" stroke="#0f172a" stroke-width="1.2"/>
+<line x1="9.5" y1="6" x2="11.5" y2="6" stroke="var(--wf-accent, #f59e0b)" stroke-width="1.5"/>
+</svg>

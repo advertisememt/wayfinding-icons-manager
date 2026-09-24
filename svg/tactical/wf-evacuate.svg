@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-evacuate">
+  <polygon points="13 3 21 3 21 21 13 21" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="15 5 19 5 19 19 15 19" fill="var(--wf-accent-light, #fbbf24)"/>
+<circle cx="7" cy="6" r="1.8" fill="#0f172a"/>
+<path d="M5 16l2-3 2 1.5 3-4.5h2" stroke="#0f172a" stroke-width="2" stroke-linecap="round" fill="none"/>
+</svg>

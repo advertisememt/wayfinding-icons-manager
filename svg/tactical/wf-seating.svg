@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-seating">
+  <polygon points="5 5 19 5 17 12 7 12" fill="#334155" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="4" y="12" width="16" height="4.5" rx="1.5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.5"/>
+<line x1="6" y1="16.5" x2="4" y2="21" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+<line x1="18" y1="16.5" x2="20" y2="21" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+</svg>

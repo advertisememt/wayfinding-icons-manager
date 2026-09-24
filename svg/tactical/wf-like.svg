@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-like">
+  <path d="M13 9V4a2 2 0 0 0-2-2l-3 7v12h10a2 2 0 0 0 2-1.7l1.3-8.5a2 2 0 0 0-2-2.3H13z" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="3" y="9" width="5" height="12" rx="1" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8"/>
+<line x1="8" y1="9" x2="8" y2="21" stroke="#0f172a" stroke-width="1.5"/>
+<path d="M13 9V4a2 2 0 0 0-2-2l-3 7h5z" fill="var(--wf-accent-light, #fbbf24)"/>
+</svg>

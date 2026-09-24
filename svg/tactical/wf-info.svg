@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-info">
+  <circle cx="12" cy="12" r="9.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<circle cx="12" cy="12" r="7" fill="#334155"/>
+<path d="M12 5 A7 7 0 0 1 19 12 L12 12 Z" fill="var(--wf-accent, #f59e0b)"/>
+<circle cx="12" cy="12" r="3.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.2"/>
+<circle cx="12" cy="12" r="1.5" fill="var(--wf-accent, #f59e0b)"/>
+</svg>

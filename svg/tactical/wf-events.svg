@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-events">
+  <rect x="3" y="4" width="18" height="17" rx="2" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<rect x="3" y="4" width="18" height="5" fill="#334155" stroke="#0f172a" stroke-width="1.2"/>
+<polygon points="12 10 13.5 13 17 13.5 14.5 16 15 19.5 12 18 9 19.5 9.5 16 7 13.5 10.5 13" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-camera">
+  <polygon points="4 7 7 4 17 4 20 7 21 7 21 20 3 20 3 7" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="12" cy="13.5" r="4.5" fill="#334155" stroke="#0f172a" stroke-width="1.5"/>
+<circle cx="12" cy="13.5" r="2.5" fill="var(--wf-accent, #f59e0b)"/>
+<circle cx="18" cy="8" r="1.2" fill="var(--wf-accent-light, #fbbf24)"/>
+</svg>

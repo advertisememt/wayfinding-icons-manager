@@ -1,0 +1,535 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="wf-arrow-up" viewBox="0 0 24 24">
+    <polygon points="12 2 20 10 15 10 15 21 9 21 9 10 4 10" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="12 2 12 21 9 21 9 10 4 10" fill="var(--wf-accent-light, #fbbf24)" opacity="0.35"/>
+<polygon points="15 10 20 10 15 21" fill="#334155" opacity="0.4"/>
+<line x1="12" y1="2" x2="12" y2="21" stroke="#0f172a" stroke-width="1.2"/>
+  </symbol>
+  <symbol id="wf-arrow-right" viewBox="0 0 24 24">
+    <polygon points="22 12 14 4 14 9 3 9 3 15 14 15 14 20" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="22 12 3 12 3 9 14 9 14 4" fill="var(--wf-accent-light, #fbbf24)" opacity="0.4"/>
+<polygon points="14 15 22 12 14 20" fill="#334155" opacity="0.5"/>
+<line x1="3" y1="12" x2="22" y2="12" stroke="#0f172a" stroke-width="1.2"/>
+  </symbol>
+  <symbol id="wf-arrow-down" viewBox="0 0 24 24">
+    <polygon points="12 22 4 14 9 14 9 3 15 3 15 14 20 14" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="12 22 12 3 9 3 9 14 4 14" fill="var(--wf-accent-light, #fbbf24)" opacity="0.4"/>
+<polygon points="15 14 12 22 15 3" fill="#334155" opacity="0.5"/>
+<line x1="12" y1="3" x2="12" y2="22" stroke="#0f172a" stroke-width="1.2"/>
+  </symbol>
+  <symbol id="wf-arrow-left" viewBox="0 0 24 24">
+    <path d="M18 5A8 8 0 0 0 6 12l-3-3v8h8l-3-3a6 6 0 0 1 10-2z" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="6 12 3 9 3 17 11 17 8 14" fill="var(--wf-accent-light, #fbbf24)"/>
+<polygon points="19 2 20.5 5 23.5 6.5 20.5 8 19 11 17.5 8 14.5 6.5 17.5 5" fill="var(--wf-accent-light, #fbbf24)" stroke="#0f172a" stroke-width="0.8"/>
+  </symbol>
+  <symbol id="wf-arrow-up-right" viewBox="0 0 24 24">
+    <polygon points="6 20 15 11 15 17 21 17 21 3 7 3 7 9 13 9 4 18" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="7 3 21 3 15 9 7 9" fill="var(--wf-accent-light, #fbbf24)" opacity="0.45"/>
+<polygon points="15 11 21 17 15 17" fill="#334155" opacity="0.5"/>
+<line x1="6" y1="20" x2="19" y2="5" stroke="#0f172a" stroke-width="1.2"/>
+  </symbol>
+  <symbol id="wf-arrow-up-left" viewBox="0 0 24 24">
+    <polygon points="18 20 9 11 9 17 3 17 3 3 17 3 17 9 11 9 20 18" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="17 3 3 3 9 9 17 9" fill="var(--wf-accent-light, #fbbf24)" opacity="0.45"/>
+<polygon points="9 11 3 17 9 17" fill="#334155" opacity="0.5"/>
+<line x1="18" y1="20" x2="5" y2="5" stroke="#0f172a" stroke-width="1.2"/>
+  </symbol>
+  <symbol id="wf-u-turn" viewBox="0 0 24 24">
+    <path d="M8 18l-4-4h3A7 7 0 0 1 14 7a7 7 0 0 1 7 7v7h-4v-7a3 3 0 0 0-3-3 3 3 0 0 0-3 3h3z" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M8 18l-4-4h3a7 7 0 0 1 7-7v4a3 3 0 0 0-3 3h3z" fill="var(--wf-accent-light, #fbbf24)" opacity="0.4"/>
+<rect x="17" y="14" width="4" height="7" fill="#334155"/>
+  </symbol>
+  <symbol id="wf-signpost" viewBox="0 0 24 24">
+    <rect x="11" y="2" width="2" height="20" fill="#334155" stroke="#0f172a" stroke-width="1.5"/>
+<polygon points="4 5 11 5 13 7.5 11 10 4 10" fill="#475569" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="13 11 20 11 22 13.5 20 16 13 16" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="13 11 17 11 18 13.5 16 16 13 16" fill="var(--wf-accent-light, #fbbf24)" opacity="0.4"/>
+  </symbol>
+  <symbol id="wf-pin" viewBox="0 0 24 24">
+    <polygon points="12 2 19 6 19 14 12 22 5 14 5 6" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="12 2 19 6 12 10 5 6" fill="#475569"/>
+<polygon points="12 10 19 6 19 14 12 22" fill="#334155"/>
+<circle cx="12" cy="11" r="3.5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1"/>
+<text x="12" y="12.5" font-size="3.5" font-weight="900" text-anchor="middle" fill="#0f172a" font-family="sans-serif">YOU</text>
+  </symbol>
+  <symbol id="wf-facing" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<circle cx="12" cy="12" r="7" fill="#334155"/>
+<polygon points="12 4 15.5 12 12 10 8.5 12" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="12 4 12 10 8.5 12" fill="var(--wf-accent-light, #fbbf24)"/>
+<circle cx="12" cy="16.5" r="1.5" fill="var(--wf-accent, #f59e0b)"/>
+  </symbol>
+  <symbol id="wf-map" viewBox="0 0 24 24">
+    <polygon points="3 7 9 3 9 17 3 21" fill="#475569" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="9 3 15 7 15 21 9 17" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="15 7 21 3 21 17 15 21" fill="#334155" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="9 3 15 7 12 12" fill="var(--wf-accent-light, #fbbf24)" opacity="0.5"/>
+<polygon points="12 12 15 21 9 17" fill="var(--wf-accent-dark, #d97706)" opacity="0.6"/>
+<polygon points="3 7 9 10 3 14" fill="var(--wf-accent, #f59e0b)" opacity="0.85"/>
+<polygon points="15 7 21 10 18 14" fill="var(--wf-accent, #f59e0b)" opacity="0.85"/>
+  </symbol>
+  <symbol id="wf-touch" viewBox="0 0 24 24">
+    <polygon points="4 16 12 11 20 16 12 21" fill="#475569" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="4 16 12 11 12 21" fill="var(--wf-accent, #f59e0b)" opacity="0.85"/>
+<circle cx="12" cy="6" r="3.5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.5"/>
+<circle cx="12" cy="6" r="1.5" fill="#ffffff"/>
+<path d="M12 9v5l2 2" fill="none" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="wf-entrance" viewBox="0 0 24 24">
+    <polygon points="8 3 18 3 21 6 21 21 8 21" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="11" y="6" width="7" height="15" fill="#334155" stroke="#0f172a" stroke-width="1.2"/>
+<polygon points="3 13 8 9 8 12 13 12 13 14 8 14 8 17" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="3 13 8 9 8 13" fill="var(--wf-accent-light, #fbbf24)"/>
+  </symbol>
+  <symbol id="wf-exit" viewBox="0 0 24 24">
+    <polygon points="12 2 19 6 19 18 12 22 5 18 5 6" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="5 6 12 2 12 22 5 18" fill="#334155"/>
+<polygon points="6.5 7.5 11 4 11 20 6.5 16.5" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="17.5 7.5 13 4 13 20 17.5 16.5" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="6.5 7.5 11 4 11 12 6.5 12" fill="var(--wf-accent-light, #fbbf24)"/>
+<polygon points="13 4 17.5 7.5 17.5 12 13 12" fill="var(--wf-accent-light, #fbbf24)"/>
+  </symbol>
+  <symbol id="wf-lift" viewBox="0 0 24 24">
+    <rect x="3" y="3" width="18" height="18" rx="2" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<rect x="5.5" y="5.5" width="13" height="13" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.2"/>
+<circle cx="9" cy="9.5" r="1.3" fill="#0f172a"/>
+<path d="M7.5 16v-3a1.5 1.5 0 0 1 3 0v3z" fill="#0f172a"/>
+<circle cx="15" cy="9.5" r="1.3" fill="#0f172a"/>
+<path d="M13.5 16v-3a1.5 1.5 0 0 1 3 0v3z" fill="#0f172a"/>
+<polygon points="12 2.5 10 4.5 14 4.5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="0.8"/>
+<polygon points="12 21.5 10 19.5 14 19.5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="0.8"/>
+  </symbol>
+  <symbol id="wf-stairs" viewBox="0 0 24 24">
+    <polygon points="3 20 8 20 8 16 13 16 13 12 18 12 18 8 22 8 22 20 3 20" fill="#334155" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="8 20 8 16 13 16 13 12 18 12 18 8 22 8 22 20" fill="#1e293b"/>
+<polyline points="3 20 8 20 8 16 13 16 13 12 18 12 18 8 22 8" fill="none" stroke="var(--wf-accent, #f59e0b)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="5" y1="13" x2="19" y2="4" stroke="var(--wf-accent-light, #fbbf24)" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="wf-escalator-up" viewBox="0 0 24 24">
+    <path d="M3 6h4.5l8 11H21" fill="none" stroke="#1e293b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 6h4.5l8 11H21" fill="none" stroke="var(--wf-accent, #f59e0b)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="14 7 19 7 19 12" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1"/>
+<circle cx="9" cy="4" r="1.5" fill="#0f172a"/>
+<path d="M7 10l3-3 2 1" fill="none" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="wf-escalator-down" viewBox="0 0 24 24">
+    <path d="M3 18h4.5l8-11H21" fill="none" stroke="#1e293b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 18h4.5l8-11H21" fill="none" stroke="var(--wf-accent, #f59e0b)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="10 17 5 17 5 12" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1"/>
+<circle cx="15" cy="4" r="1.5" fill="#0f172a"/>
+<path d="M17 10l-3-3-2 1" fill="none" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="wf-ramp" viewBox="0 0 24 24">
+    <polygon points="2 20 22 20 22 9 2 20" fill="#334155" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="2 20 22 9 22 20" fill="#1e293b"/>
+<line x1="2" y1="20" x2="22" y2="9" stroke="var(--wf-accent, #f59e0b)" stroke-width="3" stroke-linecap="round"/>
+<circle cx="15" cy="6" r="1.6" fill="var(--wf-accent, #f59e0b)"/>
+<path d="M11 14a2.5 2.5 0 0 1 3-2l2-1.5" fill="none" stroke="#0f172a" stroke-width="1.8" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="wf-accessible" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<circle cx="12" cy="5" r="1.8" fill="var(--wf-accent, #f59e0b)"/>
+<path d="M10 9h3.5l1.5 5h3" fill="none" stroke="var(--wf-accent, #f59e0b)" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M13 14a4 4 0 1 1-5-2.5" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round"/>
+<polyline points="8 12 11 12 12 15" stroke="var(--wf-accent, #f59e0b)" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="wf-levels" viewBox="0 0 24 24">
+    <polygon points="12 2 21 6.5 12 11 3 6.5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="12 2 12 11 3 6.5" fill="var(--wf-accent-light, #fbbf24)" opacity="0.4"/>
+<polygon points="12 7.5 21 12 12 16.5 3 12" fill="#334155" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="12 7.5 12 16.5 3 12" fill="#475569" opacity="0.4"/>
+<polygon points="12 13 21 17.5 12 22 3 17.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="wf-no-entry" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<circle cx="12" cy="12" r="7.5" fill="#334155"/>
+<rect x="4.5" y="10" width="15" height="4" rx="1" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.2"/>
+<rect x="4.5" y="10" width="15" height="2" fill="var(--wf-accent-light, #fbbf24)"/>
+  </symbol>
+  <symbol id="wf-prohibited" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<circle cx="12" cy="12" r="7" fill="#334155"/>
+<line x1="5.5" y1="5.5" x2="18.5" y2="18.5" stroke="var(--wf-accent, #f59e0b)" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="5.5" y1="5.5" x2="18.5" y2="18.5" stroke="var(--wf-accent-light, #fbbf24)" stroke-width="1.5" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="wf-staff-only" viewBox="0 0 24 24">
+    <polygon points="12 2 19 5 17 14 12 20 7 14 5 5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="12 4 17 7 15 13 12 17 9 13 7 7" fill="#334155"/>
+<rect x="9.5" y="7" width="5" height="2.5" rx="0.5" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="12 11 14 13 12 16 10 13" fill="var(--wf-accent, #f59e0b)"/>
+  </symbol>
+  <symbol id="wf-toilets" viewBox="0 0 24 24">
+    <rect x="2" y="2" width="20" height="20" rx="3" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<line x1="12" y1="3" x2="12" y2="21" stroke="var(--wf-accent, #f59e0b)" stroke-width="1.5"/>
+<circle cx="7" cy="6" r="1.5" fill="var(--wf-accent, #f59e0b)"/>
+<path d="M5 10h4v6H8v4H6v-4H5z" fill="#ffffff"/>
+<circle cx="17" cy="6" r="1.5" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="15 10 19 10 20 16 14 16" fill="#ffffff"/>
+<rect x="15" y="16" width="1.5" height="4" fill="#ffffff"/>
+<rect x="17.5" y="16" width="1.5" height="4" fill="#ffffff"/>
+  </symbol>
+  <symbol id="wf-toilet-male" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<circle cx="12" cy="5" r="1.8" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="10 8.5 14 8.5 15 15 13 15 13 20 11 20 11 15 9 15" fill="#ffffff" stroke="#0f172a" stroke-width="1"/>
+<polygon points="11.5 8.5 12.5 8.5 13 12 11 12" fill="var(--wf-accent, #f59e0b)"/>
+  </symbol>
+  <symbol id="wf-toilet-female" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<circle cx="12" cy="5" r="1.8" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="10 8.5 14 8.5 16 16 8 16" fill="#ffffff" stroke="#0f172a" stroke-width="1"/>
+<rect x="9.5" y="16" width="2" height="4" fill="#ffffff"/>
+<rect x="12.5" y="16" width="2" height="4" fill="#ffffff"/>
+<polygon points="12 8.5 14 8.5 15 12 12 12" fill="var(--wf-accent, #f59e0b)"/>
+  </symbol>
+  <symbol id="wf-toilet-accessible" viewBox="0 0 24 24">
+    <polygon points="12 2 20 6 20 18 12 22 4 18 4 6" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="10" cy="6" r="1.6" fill="var(--wf-accent, #f59e0b)"/>
+<path d="M8 10h3l1.5 4h2.5" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M11 14a3.5 3.5 0 1 1-5-2" fill="none" stroke="var(--wf-accent, #f59e0b)" stroke-width="2" stroke-linecap="round"/>
+<rect x="16" y="8" width="3" height="9" rx="0.5" fill="#334155" stroke="var(--wf-accent, #f59e0b)" stroke-width="1"/>
+  </symbol>
+  <symbol id="wf-baby-change" viewBox="0 0 24 24">
+    <polygon points="3 17 21 17 19 20 5 20" fill="#334155" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="2" y1="17" x2="22" y2="17" stroke="var(--wf-accent, #f59e0b)" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="7" cy="9" r="2.2" fill="var(--wf-accent, #f59e0b)"/>
+<path d="M10 13c2 0 4-2 6-2s4 2 5 2" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+<circle cx="15" cy="9" r="1.5" fill="#ffffff"/>
+  </symbol>
+  <symbol id="wf-cafe" viewBox="0 0 24 24">
+    <path d="M5 8c-2 2-2 5 0 7s5 2 7 0l5-5c2-2 2-5 0-7s-5-2-7 0z" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8"/>
+<path d="M19 8c2 2 2 5 0 7s-5 2-7 0l-5-5c-2-2-2-5 0-7s5-2 7 0z" fill="#334155" opacity="0.7" stroke="#0f172a" stroke-width="1.8"/>
+<line x1="8" y1="2" x2="8" y2="4" stroke="var(--wf-accent, #f59e0b)" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="12" y1="1" x2="12" y2="3" stroke="var(--wf-accent, #f59e0b)" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="16" y1="2" x2="16" y2="4" stroke="var(--wf-accent, #f59e0b)" stroke-width="1.5" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="wf-food" viewBox="0 0 24 24">
+    <polygon points="18 2 20 2 19 14 19 22 17 22 17 14" fill="#ffffff" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M21 2c0 4-3 5-3 8" fill="none" stroke="var(--wf-accent, #f59e0b)" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M4 2v6c0 2 1.5 3 3.5 3v11h2V11c2 0 3.5-1 3.5-3V2" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="7.5" y1="2" x2="7.5" y2="7" stroke="var(--wf-accent, #f59e0b)" stroke-width="1.5"/>
+  </symbol>
+  <symbol id="wf-retail" viewBox="0 0 24 24">
+    <polygon points="5 8 19 8 18 21 6 21" fill="#334155" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="5 8 19 8 13 21 6 21" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="5 8 12 8 8 21 6 21" fill="var(--wf-accent-light, #fbbf24)"/>
+<path d="M9 8V5a3 3 0 0 1 6 0v3" fill="none" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="wf-atm" viewBox="0 0 24 24">
+    <rect x="4" y="3" width="16" height="18" rx="2" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<rect x="7" y="5.5" width="10" height="6.5" rx="1" fill="#334155" stroke="#0f172a" stroke-width="1"/>
+<rect x="8.5" y="7" width="7" height="3.5" rx="0.5" fill="var(--wf-accent, #f59e0b)"/>
+<line x1="7" y1="15" x2="17" y2="15" stroke="var(--wf-accent, #f59e0b)" stroke-width="2" stroke-linecap="round"/>
+<rect x="13.5" y="17" width="4" height="2" fill="#ffffff"/>
+  </symbol>
+  <symbol id="wf-payment" viewBox="0 0 24 24">
+    <polygon points="3 14 7 8 17 8 21 14" fill="#334155" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M3 14c0 4.5 4 7 9 7s9-2.5 9-7z" fill="#1e293b" stroke="#0f172a" stroke-width="1.5"/>
+<line x1="7" y1="6" x2="15" y2="13" stroke="var(--wf-accent, #f59e0b)" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="16" cy="5" r="2.5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1"/>
+  </symbol>
+  <symbol id="wf-pharmacy" viewBox="0 0 24 24">
+    <path d="M4 11c0 5 3.5 8 8 8s8-3 8-8z" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<line x1="3" y1="11" x2="21" y2="11" stroke="var(--wf-accent, #f59e0b)" stroke-width="2" stroke-linecap="round"/>
+<line x1="16" y1="4" x2="10" y2="13" stroke="var(--wf-accent, #f59e0b)" stroke-width="3" stroke-linecap="round"/>
+<polygon points="12 14 13 14 13 15 14 15 14 16 13 16 13 17 12 17 12 16 11 16 11 15 12 15" fill="var(--wf-accent, #f59e0b)" transform="scale(1.2) translate(-2,-2)"/>
+  </symbol>
+  <symbol id="wf-water" viewBox="0 0 24 24">
+    <polygon points="12 2 17 8 17 15 12 21 7 15 7 8" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="12 2 17 8 12 15 7 8" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="12 2 12 15 7 8" fill="var(--wf-accent-light, #fbbf24)"/>
+<polyline points="8 12 11 15 16 9" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </symbol>
+  <symbol id="wf-wifi" viewBox="0 0 24 24">
+    <path d="M4 8a13 13 0 0 1 16 0" fill="none" stroke="#1e293b" stroke-width="3" stroke-linecap="round"/>
+<path d="M4 8a13 13 0 0 1 16 0" fill="none" stroke="var(--wf-accent, #f59e0b)" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M7 12a8 8 0 0 1 10 0" fill="none" stroke="#1e293b" stroke-width="3" stroke-linecap="round"/>
+<path d="M7 12a8 8 0 0 1 10 0" fill="none" stroke="var(--wf-accent, #f59e0b)" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="12" cy="18" r="2.2" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.2"/>
+  </symbol>
+  <symbol id="wf-seating" viewBox="0 0 24 24">
+    <polygon points="5 5 19 5 17 12 7 12" fill="#334155" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="4" y="12" width="16" height="4.5" rx="1.5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.5"/>
+<line x1="6" y1="16.5" x2="4" y2="21" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+<line x1="18" y1="16.5" x2="20" y2="21" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="wf-parking" viewBox="0 0 24 24">
+    <polygon points="4 6 20 6 22 13 2 13" fill="#334155" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="2 13 22 13 20 18 4 18" fill="#1e293b" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<circle cx="6.5" cy="18" r="2.2" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.2"/>
+<circle cx="17.5" cy="18" r="2.2" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.2"/>
+<polygon points="5 13 7 8 17 8 19 13" fill="var(--wf-accent, #f59e0b)" opacity="0.85"/>
+  </symbol>
+  <symbol id="wf-car" viewBox="0 0 24 24">
+    <polygon points="5 11 8 5 16 5 19 11" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="3" y="11" width="18" height="6" rx="2" fill="#1e293b" stroke="#0f172a" stroke-width="1.5"/>
+<circle cx="7" cy="17" r="2" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1"/>
+<circle cx="17" cy="17" r="2" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1"/>
+<line x1="3" y1="13" x2="6" y2="13" stroke="var(--wf-accent-light, #fbbf24)" stroke-width="1.5"/>
+<line x1="18" y1="13" x2="21" y2="13" stroke="var(--wf-accent-light, #fbbf24)" stroke-width="1.5"/>
+  </symbol>
+  <symbol id="wf-bus" viewBox="0 0 24 24">
+    <rect x="5" y="3" width="14" height="16" rx="3" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<rect x="7" y="5.5" width="10" height="2.5" rx="0.5" fill="var(--wf-accent, #f59e0b)"/>
+<rect x="7" y="9.5" width="10" height="4.5" rx="0.5" fill="#334155"/>
+<circle cx="8" cy="16" r="1.3" fill="var(--wf-accent, #f59e0b)"/>
+<circle cx="16" cy="16" r="1.3" fill="var(--wf-accent, #f59e0b)"/>
+<line x1="7" y1="19" x2="7" y2="21.5" stroke="#0f172a" stroke-width="2"/>
+<line x1="17" y1="19" x2="17" y2="21.5" stroke="#0f172a" stroke-width="2"/>
+  </symbol>
+  <symbol id="wf-ev" viewBox="0 0 24 24">
+    <polygon points="12 2 19 6 19 18 12 22 5 18 5 6" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="12 2 19 6 12 11 5 6" fill="#475569"/>
+<polygon points="12 11 19 6 19 18 12 22" fill="#334155"/>
+<polygon points="12 5 8 12 12 12 11 18 16 11 12 11" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="0.8"/>
+  </symbol>
+  <symbol id="wf-info" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<circle cx="12" cy="12" r="7" fill="#334155"/>
+<path d="M12 5 A7 7 0 0 1 19 12 L12 12 Z" fill="var(--wf-accent, #f59e0b)"/>
+<circle cx="12" cy="12" r="3.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.2"/>
+<circle cx="12" cy="12" r="1.5" fill="var(--wf-accent, #f59e0b)"/>
+  </symbol>
+  <symbol id="wf-help" viewBox="0 0 24 24">
+    <polygon points="12 2 20 6.5 20 17.5 12 22 4 17.5 4 6.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="12 4.5 18 8 18 16 12 19.5 6 16 6 8" fill="#334155"/>
+<path d="M10 8.5a2.5 2.5 0 0 1 4 1.5c0 1.5-2 2-2 3.5" fill="none" stroke="var(--wf-accent, #f59e0b)" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="12" cy="16.5" r="1.3" fill="var(--wf-accent, #f59e0b)"/>
+  </symbol>
+  <symbol id="wf-reception" viewBox="0 0 24 24">
+    <polygon points="4 14 20 14 18 19 6 19" fill="#1e293b" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="3" y="14" width="18" height="2.5" rx="0.5" fill="var(--wf-accent, #f59e0b)"/>
+<circle cx="12" cy="6" r="2.5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.2"/>
+<path d="M9 14a3 3 0 0 1 6 0" fill="#334155"/>
+  </symbol>
+  <symbol id="wf-security" viewBox="0 0 24 24">
+    <rect x="5" y="5" width="14" height="9" rx="1.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<rect x="7" y="7" width="10" height="5" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="10 14 14 14 16 20 8 20" fill="#334155" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="3" y1="20" x2="21" y2="20" stroke="var(--wf-accent, #f59e0b)" stroke-width="2"/>
+  </symbol>
+  <symbol id="wf-phone" viewBox="0 0 24 24">
+    <polygon points="12 2 20 6 18 16 12 21 6 16 4 6" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="12 4 18 7.5 16.5 15 12 19 7.5 15 6 7.5" fill="#334155"/>
+<path d="M9 8h2l1 2.5-1.5 1.5a7 7 0 0 0 3 3l1.5-1.5 2.5 1v2a2 2 0 0 1-2 2A10 10 0 0 1 7 9a2 2 0 0 1 2-1" fill="var(--wf-accent, #f59e0b)"/>
+  </symbol>
+  <symbol id="wf-intercom" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<circle cx="12" cy="12" r="7.5" fill="#334155"/>
+<circle cx="12" cy="12" r="6" fill="#1e293b"/>
+<text x="12" y="16.5" font-size="12" font-weight="900" text-anchor="middle" fill="var(--wf-accent, #f59e0b)" font-family="sans-serif">H</text>
+  </symbol>
+  <symbol id="wf-hospital" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9.5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8"/>
+<circle cx="12" cy="12" r="7.5" fill="#1e293b"/>
+<text x="12" y="16.5" font-size="12" font-weight="900" text-anchor="middle" fill="var(--wf-accent, #f59e0b)" font-family="sans-serif">H</text>
+  </symbol>
+  <symbol id="wf-first-aid" viewBox="0 0 24 24">
+    <rect x="3" y="6" width="18" height="15" rx="3" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" fill="none" stroke="var(--wf-accent, #f59e0b)" stroke-width="2"/>
+<polygon points="10 11 10 9 14 9 14 11 16 11 16 15 14 15 14 17 10 17 10 15 8 15 8 11" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1"/>
+  </symbol>
+  <symbol id="wf-consult" viewBox="0 0 24 24">
+    <rect x="3" y="6" width="18" height="15" rx="3" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<polygon points="10 11 10 9 14 9 14 11 16 11 16 15 14 15 14 17 10 17 10 15 8 15 8 11" fill="var(--wf-accent, #f59e0b)"/>
+<line x1="8" y1="6" x2="16" y2="6" stroke="var(--wf-accent, #f59e0b)" stroke-width="2.5" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="wf-pathology" viewBox="0 0 24 24">
+    <rect x="3" y="6" width="18" height="15" rx="3" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<polygon points="10 11 10 9 14 9 14 11 16 11 16 15 14 15 14 17 10 17 10 15 8 15 8 11" fill="var(--wf-accent, #f59e0b)"/>
+<circle cx="17.5" cy="8.5" r="1.5" fill="#ffffff"/>
+  </symbol>
+  <symbol id="wf-aed" viewBox="0 0 24 24">
+    <polygon points="12 21 3 12 6 5 12 9 18 5 21 12" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="12 19 5 12 7 7 12 10 17 7 19 12" fill="#334155"/>
+<polygon points="12 4 9 11 13 11 11 17 16 10 12 10" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1"/>
+  </symbol>
+  <symbol id="wf-student" viewBox="0 0 24 24">
+    <polygon points="12 2 14.5 8 21 9 16 14 18 21 12 17 6 21 8 14 3 9 9.5 8" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="12 2 14.5 8 12 12 9.5 8" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="21 9 16 14 12 12 14.5 8" fill="#334155"/>
+<polygon points="18 21 12 17 12 12 16 14" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="6 21 8 14 12 12 12 17" fill="var(--wf-accent-light, #fbbf24)"/>
+<polygon points="3 9 9.5 8 12 12 8 14" fill="var(--wf-accent, #f59e0b)"/>
+  </symbol>
+  <symbol id="wf-library" viewBox="0 0 24 24">
+    <rect x="3" y="4" width="4" height="17" rx="0.5" fill="#334155" stroke="#0f172a" stroke-width="1.2"/>
+<rect x="8" y="2" width="5" height="19" rx="0.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.2"/>
+<rect x="14" y="5" width="4" height="16" rx="0.5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.2"/>
+<rect x="19" y="8" width="3" height="13" rx="0.5" fill="#475569" stroke="#0f172a" stroke-width="1.2"/>
+<line x1="9.5" y1="6" x2="11.5" y2="6" stroke="var(--wf-accent, #f59e0b)" stroke-width="1.5"/>
+  </symbol>
+  <symbol id="wf-lecture" viewBox="0 0 24 24">
+    <rect x="3" y="3" width="18" height="13" rx="1.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<rect x="5" y="5" width="14" height="9" fill="#334155"/>
+<polygon points="6 6 12 6 12 9 6 9" fill="var(--wf-accent, #f59e0b)"/>
+<line x1="6" y1="11" x2="18" y2="11" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="9 16 15 16 17 21 7 21" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="wf-emergency" viewBox="0 0 24 24">
+    <polygon points="7 2 17 2 22 7 22 17 17 22 7 22 2 17 2 7" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="12" cy="12" r="7.5" fill="#334155"/>
+<line x1="12" y1="2" x2="12" y2="5" stroke="var(--wf-accent, #f59e0b)" stroke-width="2"/>
+<line x1="12" y1="19" x2="12" y2="22" stroke="var(--wf-accent, #f59e0b)" stroke-width="2"/>
+<line x1="2" y1="12" x2="5" y2="12" stroke="var(--wf-accent, #f59e0b)" stroke-width="2"/>
+<line x1="19" y1="12" x2="22" y2="12" stroke="var(--wf-accent, #f59e0b)" stroke-width="2"/>
+<polygon points="11 7 13 7 13 13 11 13" fill="var(--wf-accent, #f59e0b)"/>
+<circle cx="12" cy="16" r="1.3" fill="var(--wf-accent, #f59e0b)"/>
+  </symbol>
+  <symbol id="wf-evacuate" viewBox="0 0 24 24">
+    <polygon points="13 3 21 3 21 21 13 21" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="15 5 19 5 19 19 15 19" fill="var(--wf-accent-light, #fbbf24)"/>
+<circle cx="7" cy="6" r="1.8" fill="#0f172a"/>
+<path d="M5 16l2-3 2 1.5 3-4.5h2" stroke="#0f172a" stroke-width="2" stroke-linecap="round" fill="none"/>
+  </symbol>
+  <symbol id="wf-assembly" viewBox="0 0 24 24">
+    <polygon points="12 2 14.5 7 20 5 18 10.5 23 13 18 15.5 20 21 14.5 19 12 24 9.5 19 4 21 6 15.5 1 13 6 10.5 4 5 9.5 7" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="12 2 14.5 7 12 13 9.5 7" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="20 5 18 10.5 12 13 14.5 7" fill="#334155"/>
+<polygon points="23 13 18 15.5 12 13 18 10.5" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="20 21 14.5 19 12 13 18 15.5" fill="var(--wf-accent-light, #fbbf24)"/>
+<polygon points="12 24 9.5 19 12 13 14.5 19" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="4 21 6 15.5 12 13 9.5 19" fill="#334155"/>
+<polygon points="1 13 6 10.5 12 13 6 15.5" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="4 5 9.5 7 12 13 6 10.5" fill="var(--wf-accent-light, #fbbf24)"/>
+  </symbol>
+  <symbol id="wf-fire" viewBox="0 0 24 24">
+    <polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="12 2 15 8.5 12 14 9 8.5" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="22 9.5 17 14.5 12 14 15 8.5" fill="var(--wf-accent-light, #fbbf24)"/>
+<polygon points="18.5 21.5 12 18 12 14 17 14.5" fill="var(--wf-accent-dark, #d97706)"/>
+<polygon points="5.5 21.5 7 14.5 12 14 12 18" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="2 9.5 9 8.5 12 14 7 14.5" fill="var(--wf-accent-light, #fbbf24)"/>
+  </symbol>
+  <symbol id="wf-warning" viewBox="0 0 24 24">
+    <polygon points="12 2 23 20 1 20" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="12 5 20.5 18.5 3.5 18.5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="12 5 20.5 18.5 12 18.5" fill="var(--wf-accent-light, #fbbf24)" opacity="0.4"/>
+<line x1="12" y1="9" x2="12" y2="13.5" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="12" cy="16.5" r="1.3" fill="#0f172a"/>
+  </symbol>
+  <symbol id="wf-construction" viewBox="0 0 24 24">
+    <polygon points="12 2 23 20 1 20" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="12 2 12 20 1 20" fill="var(--wf-accent-light, #fbbf24)" opacity="0.35"/>
+<line x1="6" y1="16" x2="18" y2="16" stroke="#0f172a" stroke-width="2.5"/>
+<line x1="8" y1="12" x2="16" y2="12" stroke="#0f172a" stroke-width="2.5"/>
+<polygon points="12 5 15 10 9 10" fill="#1e293b"/>
+  </symbol>
+  <symbol id="wf-home" viewBox="0 0 24 24">
+    <polygon points="12 2 22 10 19 10 19 21 5 21 5 10 2 10" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="12 2 22 10 19 10 12 4.5 5 10 2 10" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="12 2 22 10 19 10 12 4.5" fill="var(--wf-accent-light, #fbbf24)"/>
+<rect x="9.5" y="13" width="5" height="8" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.2"/>
+  </symbol>
+  <symbol id="wf-search" viewBox="0 0 24 24">
+    <circle cx="10.5" cy="10.5" r="7.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<circle cx="10.5" cy="10.5" r="5.5" fill="#334155"/>
+<path d="M7 7 A5 5 0 0 1 14 7" stroke="var(--wf-accent, #f59e0b)" stroke-width="2" stroke-linecap="round" fill="none"/>
+<polygon points="15 15 21 21 22 20 16 14" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="wf-menu" viewBox="0 0 24 24">
+    <rect x="3" y="4" width="18" height="3.5" rx="1.5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.5"/>
+<rect x="3" y="10.25" width="18" height="3.5" rx="1.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.5"/>
+<rect x="3" y="16.5" width="18" height="3.5" rx="1.5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.5"/>
+  </symbol>
+  <symbol id="wf-back" viewBox="0 0 24 24">
+    <polygon points="16 3 6 12 16 21 19 18 11 12 19 6" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="16 3 6 12 11 12 19 6" fill="var(--wf-accent-light, #fbbf24)"/>
+  </symbol>
+  <symbol id="wf-close" viewBox="0 0 24 24">
+    <polygon points="6 3 12 9 18 3 21 6 15 12 21 18 18 21 12 15 6 21 3 18 9 12 3 6" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="6 3 12 9 15 12 9 12 3 6" fill="var(--wf-accent-light, #fbbf24)"/>
+  </symbol>
+  <symbol id="wf-hours" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<circle cx="12" cy="12" r="7.5" fill="#334155"/>
+<path d="M12 4.5 A7.5 7.5 0 0 1 19.5 12 L12 12 Z" fill="var(--wf-accent, #f59e0b)"/>
+<line x1="12" y1="6" x2="12" y2="12" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+<line x1="12" y1="12" x2="16" y2="12" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="wf-timetable" viewBox="0 0 24 24">
+    <rect x="3" y="4" width="18" height="17" rx="2" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<rect x="3" y="4" width="18" height="5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.2"/>
+<circle cx="8" cy="13" r="1.3" fill="#ffffff"/>
+<circle cx="12" cy="13" r="1.3" fill="#ffffff"/>
+<circle cx="16" cy="13" r="1.3" fill="#ffffff"/>
+<circle cx="8" cy="17" r="1.3" fill="#ffffff"/>
+<circle cx="12" cy="17" r="1.3" fill="var(--wf-accent, #f59e0b)"/>
+  </symbol>
+  <symbol id="wf-events" viewBox="0 0 24 24">
+    <rect x="3" y="4" width="18" height="17" rx="2" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<rect x="3" y="4" width="18" height="5" fill="#334155" stroke="#0f172a" stroke-width="1.2"/>
+<polygon points="12 10 13.5 13 17 13.5 14.5 16 15 19.5 12 18 9 19.5 9.5 16 7 13.5 10.5 13" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1"/>
+  </symbol>
+  <symbol id="wf-news" viewBox="0 0 24 24">
+    <polygon points="3 4 19 4 21 7 21 21 3 21" fill="#334155" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="19 4 21 7 19 7" fill="#475569"/>
+<rect x="5.5" y="6.5" width="6" height="5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1"/>
+<line x1="13.5" y1="7" x2="18.5" y2="7" stroke="#ffffff" stroke-width="1.5"/>
+<line x1="13.5" y1="10" x2="18.5" y2="10" stroke="#ffffff" stroke-width="1.5"/>
+<line x1="5.5" y1="14" x2="18.5" y2="14" stroke="#ffffff" stroke-width="1.5"/>
+<line x1="5.5" y1="17.5" x2="15.5" y2="17.5" stroke="var(--wf-accent, #f59e0b)" stroke-width="1.5"/>
+  </symbol>
+  <symbol id="wf-announce" viewBox="0 0 24 24">
+    <polygon points="4 9 13 4 13 20 4 15" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="4 9 13 4 13 12 4 12" fill="#334155"/>
+<path d="M16 8a5 5 0 0 1 0 8" stroke="var(--wf-accent, #f59e0b)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+<path d="M19 5a9 9 0 0 1 0 14" stroke="var(--wf-accent, #f59e0b)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+<path d="M6 15v4a2 2 0 0 0 2 2h2" fill="none" stroke="#0f172a" stroke-width="2"/>
+  </symbol>
+  <symbol id="wf-share" viewBox="0 0 24 24">
+    <polygon points="14 3 22 9 14 15 14 11 4 11 4 7 14 7" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="14 3 22 9 14 9" fill="var(--wf-accent, #f59e0b)"/>
+<circle cx="6" cy="18" r="2.5" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.2"/>
+<line x1="8.5" y1="17" x2="17" y2="13" stroke="var(--wf-accent, #f59e0b)" stroke-width="1.8"/>
+  </symbol>
+  <symbol id="wf-chat" viewBox="0 0 24 24">
+    <path d="M4 5h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H8l-5 4V7a2 2 0 0 1 2-2z" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M4 5h14a2 2 0 0 1 2 2v3H4z" fill="#334155"/>
+<circle cx="8" cy="11" r="1.3" fill="var(--wf-accent, #f59e0b)"/>
+<circle cx="12" cy="11" r="1.3" fill="var(--wf-accent, #f59e0b)"/>
+<circle cx="16" cy="11" r="1.3" fill="var(--wf-accent, #f59e0b)"/>
+  </symbol>
+  <symbol id="wf-like" viewBox="0 0 24 24">
+    <path d="M13 9V4a2 2 0 0 0-2-2l-3 7v12h10a2 2 0 0 0 2-1.7l1.3-8.5a2 2 0 0 0-2-2.3H13z" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="3" y="9" width="5" height="12" rx="1" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8"/>
+<line x1="8" y1="9" x2="8" y2="21" stroke="#0f172a" stroke-width="1.5"/>
+<path d="M13 9V4a2 2 0 0 0-2-2l-3 7h5z" fill="var(--wf-accent-light, #fbbf24)"/>
+  </symbol>
+  <symbol id="wf-camera" viewBox="0 0 24 24">
+    <polygon points="4 7 7 4 17 4 20 7 21 7 21 20 3 20 3 7" fill="#1e293b" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="12" cy="13.5" r="4.5" fill="#334155" stroke="#0f172a" stroke-width="1.5"/>
+<circle cx="12" cy="13.5" r="2.5" fill="var(--wf-accent, #f59e0b)"/>
+<circle cx="18" cy="8" r="1.2" fill="var(--wf-accent-light, #fbbf24)"/>
+  </symbol>
+  <symbol id="wf-video" viewBox="0 0 24 24">
+    <rect x="2" y="6" width="13" height="12" rx="2" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<polygon points="15 10 22 6 22 18 15 14" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="15 10 22 6 15 14" fill="var(--wf-accent-light, #fbbf24)"/>
+<circle cx="6" cy="9.5" r="1.5" fill="var(--wf-accent-light, #fbbf24)"/>
+  </symbol>
+  <symbol id="wf-qr" viewBox="0 0 24 24">
+    <rect x="2" y="2" width="20" height="20" rx="3" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<rect x="4" y="4" width="6.5" height="6.5" fill="#ffffff" stroke="#0f172a" stroke-width="1.2"/>
+<rect x="5.5" y="5.5" width="3.5" height="3.5" fill="var(--wf-accent, #f59e0b)"/>
+<rect x="13.5" y="4" width="6.5" height="6.5" fill="#ffffff" stroke="#0f172a" stroke-width="1.2"/>
+<rect x="15" y="5.5" width="3.5" height="3.5" fill="var(--wf-accent, #f59e0b)"/>
+<rect x="4" y="13.5" width="6.5" height="6.5" fill="#ffffff" stroke="#0f172a" stroke-width="1.2"/>
+<rect x="5.5" y="15" width="3.5" height="3.5" fill="var(--wf-accent, #f59e0b)"/>
+<rect x="13.5" y="13.5" width="3" height="3" fill="var(--wf-accent, #f59e0b)"/>
+<rect x="17" y="17" width="3" height="3" fill="var(--wf-accent, #f59e0b)"/>
+<rect x="13.5" y="17" width="3" height="3" fill="#ffffff"/>
+  </symbol>
+  <symbol id="wf-email" viewBox="0 0 24 24">
+    <rect x="2" y="4" width="20" height="16" rx="2" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<polygon points="2 5 12 13 22 5" fill="#334155" stroke="#0f172a" stroke-width="1.2"/>
+<polygon points="2 5 12 13 7 13" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="22 5 12 13 17 13" fill="var(--wf-accent-light, #fbbf24)"/>
+  </symbol>
+  <symbol id="wf-web" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<ellipse cx="12" cy="12" rx="4.5" ry="9.5" fill="#334155" stroke="var(--wf-accent, #f59e0b)" stroke-width="1.5"/>
+<line x1="2.5" y1="12" x2="21.5" y2="12" stroke="var(--wf-accent, #f59e0b)" stroke-width="1.8"/>
+<circle cx="12" cy="12" r="2.2" fill="var(--wf-accent, #f59e0b)"/>
+  </symbol>
+</svg>

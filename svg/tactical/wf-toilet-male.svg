@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-toilet-male">
+  <circle cx="12" cy="12" r="9.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<circle cx="12" cy="5" r="1.8" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="10 8.5 14 8.5 15 15 13 15 13 20 11 20 11 15 9 15" fill="#ffffff" stroke="#0f172a" stroke-width="1"/>
+<polygon points="11.5 8.5 12.5 8.5 13 12 11 12" fill="var(--wf-accent, #f59e0b)"/>
+</svg>

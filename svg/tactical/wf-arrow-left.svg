@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-arrow-left">
+  <path d="M18 5A8 8 0 0 0 6 12l-3-3v8h8l-3-3a6 6 0 0 1 10-2z" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="6 12 3 9 3 17 11 17 8 14" fill="var(--wf-accent-light, #fbbf24)"/>
+<polygon points="19 2 20.5 5 23.5 6.5 20.5 8 19 11 17.5 8 14.5 6.5 17.5 5" fill="var(--wf-accent-light, #fbbf24)" stroke="#0f172a" stroke-width="0.8"/>
+</svg>

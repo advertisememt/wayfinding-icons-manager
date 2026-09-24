@@ -1,0 +1,94 @@
+/* Wayfinding Kiosk Icon Library CSS */
+:root {
+  --wf-icon-size: 24px;
+  --wf-icon-stroke: 2px;
+  --wf-icon-color: currentColor;
+  --wf-accent: #f59e0b;
+}
+
+.wf-icon {
+  display: inline-block;
+  width: var(--wf-icon-size);
+  height: var(--wf-icon-size);
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.wf-icon-line {
+  stroke-width: var(--wf-icon-stroke);
+  stroke: var(--wf-icon-color);
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.wf-icon-solid {
+  fill: var(--wf-icon-color);
+  stroke: none;
+}
+
+.wf-icon-duotone {
+  color: var(--wf-icon-color);
+}
+
+.wf-icon-tactical {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* Preset Sizes for Kiosk Touch Interfaces */
+.wf-icon-xs { width: 16px; height: 16px; }
+.wf-icon-sm { width: 20px; height: 20px; }
+.wf-icon-md { width: 24px; height: 24px; }
+.wf-icon-lg { width: 32px; height: 32px; }
+.wf-icon-xl { width: 48px; height: 48px; }
+.wf-icon-2xl { width: 64px; height: 64px; }
+.wf-icon-3xl { width: 96px; height: 96px; }
+
+/* Kiosk Wayfinding Color Presets */
+.wf-color-primary { color: #0284c7; }
+.wf-color-success { color: #10b981; }
+.wf-color-warning { color: #f59e0b; }
+.wf-color-danger { color: #ef4444; }
+.wf-color-dark { color: #0f172a; }
+.wf-color-light { color: #f8fafc; }
+.wf-color-accent { color: #8b5cf6; }
+
+/* Google Fonts Material Symbols Outlined Set */
+.wf-icon-gf {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  vertical-align: -0.15em;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Material Design 3 (M3) Outlined Vector Signage */
+.wf-icon-m3 {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--live-stroke, 2px);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.wf-icon-m3 [fill="currentColor"] {
+  fill: currentColor;
+}
+.wf-icon-m3 [stroke="none"] {
+  stroke: none;
+}

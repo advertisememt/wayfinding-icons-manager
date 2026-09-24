@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-toilets">
+  <rect x="2" y="2" width="20" height="20" rx="3" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<line x1="12" y1="3" x2="12" y2="21" stroke="var(--wf-accent, #f59e0b)" stroke-width="1.5"/>
+<circle cx="7" cy="6" r="1.5" fill="var(--wf-accent, #f59e0b)"/>
+<path d="M5 10h4v6H8v4H6v-4H5z" fill="#ffffff"/>
+<circle cx="17" cy="6" r="1.5" fill="var(--wf-accent, #f59e0b)"/>
+<polygon points="15 10 19 10 20 16 14 16" fill="#ffffff"/>
+<rect x="15" y="16" width="1.5" height="4" fill="#ffffff"/>
+<rect x="17.5" y="16" width="1.5" height="4" fill="#ffffff"/>
+</svg>

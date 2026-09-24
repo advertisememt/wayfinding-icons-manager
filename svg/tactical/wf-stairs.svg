@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-stairs">
+  <polygon points="3 20 8 20 8 16 13 16 13 12 18 12 18 8 22 8 22 20 3 20" fill="#334155" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="8 20 8 16 13 16 13 12 18 12 18 8 22 8 22 20" fill="#1e293b"/>
+<polyline points="3 20 8 20 8 16 13 16 13 12 18 12 18 8 22 8" fill="none" stroke="var(--wf-accent, #f59e0b)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="5" y1="13" x2="19" y2="4" stroke="var(--wf-accent-light, #fbbf24)" stroke-width="2" stroke-linecap="round"/>
+</svg>

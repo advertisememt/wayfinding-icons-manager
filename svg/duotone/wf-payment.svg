@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-duotone wf-payment">
+  <rect x="2" y="5" width="20" height="14" rx="3" opacity="0.25" fill="currentColor"/><rect x="2" y="5" width="20" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><rect x="2" y="9" width="20" height="3" fill="currentColor"/><circle cx="7" cy="15" r="1.5" fill="currentColor"/><circle cx="11" cy="15" r="1.5" fill="currentColor"/>
+</svg>

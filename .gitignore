@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test screenshots
+*_showcase.png
+*_modal.png
+*_150px*.png
+tactical_*.png
+
+# Temporary fix scripts
+fix_color_div.py
+apply_container_options.py
+update_modal_container.py
+
+# OS generated
+.DS_Store
+Thumbs.db

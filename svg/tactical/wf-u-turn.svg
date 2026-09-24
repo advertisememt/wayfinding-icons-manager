@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-u-turn">
+  <path d="M8 18l-4-4h3A7 7 0 0 1 14 7a7 7 0 0 1 7 7v7h-4v-7a3 3 0 0 0-3-3 3 3 0 0 0-3 3h3z" fill="var(--wf-accent, #f59e0b)" stroke="#0f172a" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M8 18l-4-4h3a7 7 0 0 1 7-7v4a3 3 0 0 0-3 3h3z" fill="var(--wf-accent-light, #fbbf24)" opacity="0.4"/>
+<rect x="17" y="14" width="4" height="7" fill="#334155"/>
+</svg>

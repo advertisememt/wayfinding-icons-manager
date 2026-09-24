@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-accessible">
+  <circle cx="12" cy="12" r="9.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<circle cx="12" cy="5" r="1.8" fill="var(--wf-accent, #f59e0b)"/>
+<path d="M10 9h3.5l1.5 5h3" fill="none" stroke="var(--wf-accent, #f59e0b)" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M13 14a4 4 0 1 1-5-2.5" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round"/>
+<polyline points="8 12 11 12 12 15" stroke="var(--wf-accent, #f59e0b)" stroke-width="2" stroke-linecap="round"/>
+</svg>

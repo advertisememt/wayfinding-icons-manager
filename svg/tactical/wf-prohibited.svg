@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="wf-icon wf-icon-tactical wf-prohibited">
+  <circle cx="12" cy="12" r="9.5" fill="#1e293b" stroke="#0f172a" stroke-width="1.8"/>
+<circle cx="12" cy="12" r="7" fill="#334155"/>
+<line x1="5.5" y1="5.5" x2="18.5" y2="18.5" stroke="var(--wf-accent, #f59e0b)" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="5.5" y1="5.5" x2="18.5" y2="18.5" stroke="var(--wf-accent-light, #fbbf24)" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
