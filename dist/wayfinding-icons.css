@@ -92,3 +92,21 @@
 .wf-icon-m3 [stroke="none"] {
   stroke: none;
 }
+
+/* Lucide Open Source Icons (ISC License) */
+.wf-icon-lucide {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--live-stroke, 2px);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Tabler Open Source Icons (MIT License) */
+.wf-icon-tabler {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--live-stroke, 2px);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

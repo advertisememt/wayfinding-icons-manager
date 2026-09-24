@@ -6,12 +6,12 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DIST_DIR = os.path.join(BASE_DIR, "dist")
 ZIP_PATH = os.path.join(DIST_DIR, "wayfinding-icons.zip")
 
-print("Packaging all 8 sets into wayfinding-icons.zip...")
+print("Packaging all 10 sets into wayfinding-icons.zip...")
 
 file_count = 0
 with zipfile.ZipFile(ZIP_PATH, 'w', zipfile.ZIP_DEFLATED) as zipf:
-    # 1. SVGs: line, solid, duotone, tactical, gf-example, m3
-    for folder in ['line', 'solid', 'duotone', 'tactical', 'gf-example', 'm3']:
+    # 1. SVGs: line, solid, duotone, tactical, gf-example, m3, lucide, tabler
+    for folder in ['line', 'solid', 'duotone', 'tactical', 'gf-example', 'm3', 'lucide', 'tabler']:
         svg_files = glob.glob(os.path.join(BASE_DIR, 'svg', folder, '*.svg'))
         for f in svg_files:
             rel = os.path.relpath(f, BASE_DIR).replace('\\', '/')
@@ -34,6 +34,8 @@ with zipfile.ZipFile(ZIP_PATH, 'w', zipfile.ZIP_DEFLATED) as zipf:
         'wayfinding-icons-tactical.svg',
         'wayfinding-icons-gf-example.svg',
         'wayfinding-icons-m3.svg',
+        'wayfinding-icons-lucide.svg',
+        'wayfinding-icons-tabler.svg',
         'wayfinding-icons.svg',
         'wayfinding-icons.css',
         'wayfinding-icons.js',

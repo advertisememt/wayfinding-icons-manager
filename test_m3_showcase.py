@@ -17,12 +17,12 @@ async def main():
         await page.goto(INDEX_URL)
         await page.wait_for_selector(".icon-card")
 
-        # 1. Verify all 8 options in #set-select
+        # 1. Verify all 10 options in #set-select
         options = await page.eval_on_selector_all("#set-select option", "opts => opts.map(o => ({ value: o.value, text: o.text }))")
         print(f"Found {len(options)} options in #set-select:")
         for o in options:
             print(f"  - {o['value']}: {o['text']}")
-        assert len(options) == 8, f"Expected 8 options, got {len(options)}"
+        assert len(options) == 10, f"Expected 10 options, got {len(options)}"
         m3_opt = next((o for o in options if o["value"] == "m3"), None)
         assert m3_opt is not None, "Missing 'm3' option in dropdown!"
         print("M3 option verified in dropdown.")

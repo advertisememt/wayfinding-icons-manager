@@ -507,6 +507,10 @@ html_template = """<!DOCTYPE html>
       stroke-width: var(--live-stroke, 2px);
     }
 
+        .icon-preview.lucide-mode svg,
+    .icon-preview.tabler-mode svg {
+      stroke-width: var(--live-stroke, 2px);
+    }
     .icon-preview.m3-mode svg {
       stroke-width: var(--live-stroke, 2px);
     }
@@ -859,12 +863,14 @@ html_template = """<!DOCTYPE html>
       <div class="control-group">
         <label>Design Style Set</label>
         <select id="set-select" class="custom-select">
+          <option value="lucide">Lucide Icons (Open Source - ISC/MIT)</option>
+          <option value="tabler">Tabler Icons (Open Source - MIT)</option>
+          <option value="m3">Material 3 (M3 Clean Vector SVG)</option>
+          <option value="gf-example">GF example icons</option>
           <option value="line">Modern Line (Outline SVG)</option>
           <option value="solid">Solid Signage (Filled Silhouette SVG)</option>
           <option value="duotone">Duotone Pictograms (Two-Tone SVG)</option>
           <option value="tactical">Tactical Cyber (Chiseled Amber SVG)</option>
-          <option value="gf-example">GF example icons</option>
-          <option value="m3">Material 3 (M3 Clean Vector SVG)</option>
           <option value="png" selected>3D Squircle Badges (PNG Images)</option>
           <option value="png-circle">3D Circular Pucks (PNG Images)</option>
         </select>
@@ -1103,6 +1109,8 @@ __CATEGORY_PILLS__
       const isTactical = (currentSet === 'tactical');
       const isGfExample = (currentSet === 'gf-example');
       const isM3 = (currentSet === 'm3');
+      const isLucide = (currentSet === 'lucide');
+      const isTabler = (currentSet === 'tabler');
       const isPuck = (currentSet === 'png-circle');
       const arrowIcon = METADATA.find(function(i) { return i.id === 'wf-arrow-up'; });
       const liftIcon = METADATA.find(function(i) { return i.id === 'wf-lift'; });
@@ -1125,9 +1133,13 @@ __CATEGORY_PILLS__
             '<span class="material-symbols-outlined" style="font-size: 22px; color: ' + col3 + '; vertical-align: middle;">' + (exitIcon ? exitIcon.gf_symbol : 'logout') + '</span>' +
             '<span>Building Exit</span>' +
           '</div>';
-      } else if (isLine || isSolid || isDuotone || isTactical || isM3) {
+      } else if (isLine || isSolid || isDuotone || isTactical || isM3 || isLucide || isTabler) {
         function getInner(icon) {
           if (!icon) return '';
+          if (isLucide) return icon.paths_lucide;
+          if (isTabler) return icon.paths_tabler;
+          if (isLucide) return icon.paths_lucide;
+          if (isTabler) return icon.paths_tabler;
           if (isM3) return currentFill ? (icon.paths_m3_filled || icon.paths_m3) : icon.paths_m3;
           if (isTactical) return icon.paths_tactical;
           if (isDuotone) return icon.paths_duotone;
@@ -1135,6 +1147,18 @@ __CATEGORY_PILLS__
         }
         function getSvgWrapper(inner, col) {
           const colorToUse = (currentColor === 'default') ? col : currentColor;
+          if (isLucide) {
+            return '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="' + colorToUse + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="wf-icon-lucide">' + inner + '</svg>';
+          }
+          if (isTabler) {
+            return '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="' + colorToUse + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="wf-icon-tabler">' + inner + '</svg>';
+          }
+          if (isLucide) {
+            return '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="' + colorToUse + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="wf-icon-lucide">' + inner + '</svg>';
+          }
+          if (isTabler) {
+            return '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="' + colorToUse + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="wf-icon-tabler">' + inner + '</svg>';
+          }
           if (isM3) {
             if (currentFill) {
               return '<svg width="22" height="22" viewBox="0 0 24 24" fill="' + colorToUse + '" class="wf-icon-m3 wf-icon-m3-filled">' + inner + '</svg>';
@@ -1194,6 +1218,8 @@ __CATEGORY_PILLS__
       const isTactical = (currentSet === 'tactical');
       const isGfExample = (currentSet === 'gf-example');
       const isM3 = (currentSet === 'm3');
+      const isLucide = (currentSet === 'lucide');
+      const isTabler = (currentSet === 'tabler');
       const isSquircle = (currentSet === 'png');
       const isPuck = (currentSet === 'png-circle');
       const isDefaultColor = (currentColor === 'default');
@@ -1218,6 +1244,22 @@ __CATEGORY_PILLS__
         currentSetLabel.textContent = isDefaultColor ? 'GF example icons (Google Fonts)' : 'GF example icons (' + currentColor + ')';
         strokeControlGroup.style.opacity = '0.3';
         strokeControlGroup.style.pointerEvents = 'none';
+      } else if (isLucide) {
+        currentSetLabel.textContent = isDefaultColor ? 'Lucide Icons (Open Source ISC/MIT SVG)' : 'Lucide Icons (' + currentColor + ' SVG)';
+        strokeControlGroup.style.opacity = '1';
+        strokeControlGroup.style.pointerEvents = 'auto';
+      } else if (isTabler) {
+        currentSetLabel.textContent = isDefaultColor ? 'Tabler Icons (Open Source MIT SVG)' : 'Tabler Icons (' + currentColor + ' SVG)';
+        strokeControlGroup.style.opacity = '1';
+        strokeControlGroup.style.pointerEvents = 'auto';
+      } else if (isLucide) {
+        currentSetLabel.textContent = isDefaultColor ? 'Lucide Icons (Open Source ISC/MIT SVG)' : 'Lucide Icons (' + currentColor + ' SVG)';
+        strokeControlGroup.style.opacity = '1';
+        strokeControlGroup.style.pointerEvents = 'auto';
+      } else if (isTabler) {
+        currentSetLabel.textContent = isDefaultColor ? 'Tabler Icons (Open Source MIT SVG)' : 'Tabler Icons (' + currentColor + ' SVG)';
+        strokeControlGroup.style.opacity = '1';
+        strokeControlGroup.style.pointerEvents = 'auto';
       } else if (isM3) {
         const fillSuffix = currentFill ? ' — Filled' : ' — Outline';
         currentSetLabel.textContent = isDefaultColor ? ('Material 3 (M3 Clean Vector SVG' + fillSuffix + ')') : ('Material 3 (' + currentColor + ' SVG' + fillSuffix + ')');
@@ -1304,6 +1346,30 @@ __CATEGORY_PILLS__
             '</div>';
           actionButtonsHtml = 
             '<button class="card-btn copy-asset-btn" data-id="' + icon.id + '">Copy &lt;span&gt;</button>' +
+            '<button class="card-btn download-asset-btn" data-id="' + icon.id + '">Download</button>';
+        } else if (isLucide) {
+          const colorVal = isDefaultColor ? 'var(--live-color, #38bdf8)' : currentColor;
+          previewHtml = '<div class="icon-preview lucide-mode">' + wrapWithContainer('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="' + colorVal + '" stroke-width="var(--live-stroke, 2px)" stroke-linecap="round" stroke-linejoin="round" class="wf-icon wf-icon-lucide">' + icon.paths_lucide + '</svg>', icon) + '</div>';
+          actionButtonsHtml = 
+            '<button class="card-btn copy-asset-btn" data-id="' + icon.id + '">Copy SVG</button>' +
+            '<button class="card-btn download-asset-btn" data-id="' + icon.id + '">Download</button>';
+        } else if (isTabler) {
+          const colorVal = isDefaultColor ? 'var(--live-color, #38bdf8)' : currentColor;
+          previewHtml = '<div class="icon-preview tabler-mode">' + wrapWithContainer('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="' + colorVal + '" stroke-width="var(--live-stroke, 2px)" stroke-linecap="round" stroke-linejoin="round" class="wf-icon wf-icon-tabler">' + icon.paths_tabler + '</svg>', icon) + '</div>';
+          actionButtonsHtml = 
+            '<button class="card-btn copy-asset-btn" data-id="' + icon.id + '">Copy SVG</button>' +
+            '<button class="card-btn download-asset-btn" data-id="' + icon.id + '">Download</button>';
+        } else if (isLucide) {
+          const colorVal = isDefaultColor ? 'var(--live-color, #38bdf8)' : currentColor;
+          previewHtml = '<div class="icon-preview lucide-mode">' + wrapWithContainer('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="' + colorVal + '" stroke-width="var(--live-stroke, 2px)" stroke-linecap="round" stroke-linejoin="round" class="wf-icon wf-icon-lucide">' + icon.paths_lucide + '</svg>', icon) + '</div>';
+          actionButtonsHtml = 
+            '<button class="card-btn copy-asset-btn" data-id="' + icon.id + '">Copy SVG</button>' +
+            '<button class="card-btn download-asset-btn" data-id="' + icon.id + '">Download</button>';
+        } else if (isTabler) {
+          const colorVal = isDefaultColor ? 'var(--live-color, #38bdf8)' : currentColor;
+          previewHtml = '<div class="icon-preview tabler-mode">' + wrapWithContainer('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="' + colorVal + '" stroke-width="var(--live-stroke, 2px)" stroke-linecap="round" stroke-linejoin="round" class="wf-icon wf-icon-tabler">' + icon.paths_tabler + '</svg>', icon) + '</div>';
+          actionButtonsHtml = 
+            '<button class="card-btn copy-asset-btn" data-id="' + icon.id + '">Copy SVG</button>' +
             '<button class="card-btn download-asset-btn" data-id="' + icon.id + '">Download</button>';
         } else if (isM3) {
           const colorVal = isDefaultColor ? 'var(--live-color, #38bdf8)' : currentColor;
@@ -1632,12 +1698,16 @@ __CATEGORY_PILLS__
         const isTactical = (currentSet === 'tactical');
         const isGfExample = (currentSet === 'gf-example');
         const isM3 = (currentSet === 'm3');
+        const isLucide = (currentSet === 'lucide');
+        const isTabler = (currentSet === 'tabler');
         let setDisplayName = 'Line';
         if (isSolid) setDisplayName = 'Solid';
         else if (isDuotone) setDisplayName = 'Duotone';
         else if (isTactical) setDisplayName = 'Tactical Cyber';
         else if (isGfExample) setDisplayName = 'GF example icons';
         else if (isM3) setDisplayName = currentFill ? 'Material 3 (Filled)' : 'Material 3';
+        else if (isLucide) setDisplayName = 'Lucide Open Source (ISC/MIT)';
+        else if (isTabler) setDisplayName = 'Tabler Open Source (MIT)';
 
         modalTitle.textContent = isGfExample ? (icon.name + ' (Google Fonts: ' + icon.gf_symbol + ')') : (icon.name + ' (' + setDisplayName + ')');
         modalId.textContent = isGfExample ? (icon.id + ' • Google Fonts Material Symbol: ' + icon.gf_symbol) : (icon.id + ' • ' + setDisplayName + ' SVG');
@@ -1647,6 +1717,14 @@ __CATEGORY_PILLS__
         const colorVal = (currentColor === 'default') ? '#38bdf8' : currentColor;
         if (isGfExample) {
           modalPreview.innerHTML = wrapWithContainer('<span class="material-symbols-outlined" style="font-size: 64px; color: ' + colorVal + ';">' + icon.gf_symbol + '</span>', icon);
+        } else if (isLucide) {
+          modalPreview.innerHTML = wrapWithContainer('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="' + colorVal + '" stroke-width="' + currentStroke + '" stroke-linecap="round" stroke-linejoin="round" class="wf-icon wf-icon-lucide">' + icon.paths_lucide + '</svg>', icon);
+        } else if (isTabler) {
+          modalPreview.innerHTML = wrapWithContainer('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="' + colorVal + '" stroke-width="' + currentStroke + '" stroke-linecap="round" stroke-linejoin="round" class="wf-icon wf-icon-tabler">' + icon.paths_tabler + '</svg>', icon);
+        } else if (isLucide) {
+          modalPreview.innerHTML = wrapWithContainer('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="' + colorVal + '" stroke-width="' + currentStroke + '" stroke-linecap="round" stroke-linejoin="round" class="wf-icon wf-icon-lucide">' + icon.paths_lucide + '</svg>', icon);
+        } else if (isTabler) {
+          modalPreview.innerHTML = wrapWithContainer('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="' + colorVal + '" stroke-width="' + currentStroke + '" stroke-linecap="round" stroke-linejoin="round" class="wf-icon wf-icon-tabler">' + icon.paths_tabler + '</svg>', icon);
         } else if (isM3) {
           if (currentFill) {
             const filledPaths = icon.paths_m3_filled || icon.paths_m3;
@@ -1683,8 +1761,11 @@ __CATEGORY_PILLS__
           modalSvgCode.textContent = rawSvg;
 
           modalCodeLabel2.textContent = 'Web Component / Sprite Tag';
-          let usageCode = '';
-          if (isM3) {
+          if (isLucide) {
+            usageCode = '<!-- Lucide Open Source Icon (ISC License - 100% Free for Commercial Use) -->\\n<wf-icon name="' + icon.id + '" set="lucide" size="32"></wf-icon>\\n\\n<!-- SVG Sprite Symbol -->\\n<svg class="wf-icon wf-icon-lucide"><use href="dist/wayfinding-icons-lucide.svg#' + icon.id + '"></use></svg>';
+          } else if (isTabler) {
+            usageCode = '<!-- Tabler Open Source Icon (MIT License - 100% Free for Commercial Use) -->\\n<wf-icon name="' + icon.id + '" set="tabler" size="32"></wf-icon>\\n\\n<!-- SVG Sprite Symbol -->\\n<svg class="wf-icon wf-icon-tabler"><use href="dist/wayfinding-icons-tabler.svg#' + icon.id + '"></use></svg>';
+          } else if (isM3) {
             usageCode = '<!-- Web Component (Material 3) -->\\n<wf-icon name="' + icon.id + '" set="m3" size="32"></wf-icon>\\n\\n<!-- SVG Sprite Symbol -->\\n<svg class="wf-icon wf-icon-m3"><use href="dist/wayfinding-icons-m3.svg#' + icon.id + '"></use></svg>';
           } else if (isTactical) {
             usageCode = '<!-- Web Component (Tactical Cyber) -->\\n<wf-icon name="' + icon.id + '" set="tactical" size="32"></wf-icon>\\n\\n<!-- SVG Sprite Symbol -->\\n<svg class="wf-icon wf-icon-tactical"><use href="dist/wayfinding-icons-tactical.svg#' + icon.id + '"></use></svg>';
